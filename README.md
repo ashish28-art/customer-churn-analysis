@@ -4,9 +4,9 @@ An end-to-end data analytics project focused on understanding customer churn, id
 
 ## 🔗 Project Links
 
-- **Live Interactive Dashboard:** [View Streamlit Dashboard](https://customer-churn-analysis-fypxmfgc33shmtfsgsvfm2.streamlit.app/)
-- **GitHub Repository:** [Customer Churn Analysis](https://github.com/ashish28-art/customer-churn-analysis)
-- **Tableau Dashboard:** Add your published Tableau dashboard link here.
+- **Live Interactive Dashboard:[View Streamlit Dashboard](https://customer-churn-analysis-fypxmfgc33shmtfsgsvfm2.streamlit.app/)
+- **GitHub Repository: [Customer Churn Analysis](https://github.com/ashish28-art/customer-churn-analysis)
+- **Tableau Dashboard:(https://public.tableau.com/views/CustomerChurnAnalysis_17923241466130/CustomerChurnAnalysisDashboard?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## 📌 Business Problem
 
