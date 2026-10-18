@@ -102,9 +102,21 @@ st.markdown("""
 # 3. DATABASE CONNECTION AND HEADER
 # ==================================================
 try:
-    database_url = st.secrets["database"]["url"]
+    db = st.secrets["database"]
+
+    database_url = URL.create(
+        "postgresql+psycopg",
+        username=db["username"],
+        password=db["password"],
+        host=db["host"],
+        port=int(db["port"]),
+        database=db["dbname"],
+    )
+
+    engine = create_engine(database_url, pool_pre_ping=True)
+
 except (KeyError, FileNotFoundError):
-    database_url = "postgresql+psycopg:///churn_db"
+    engine = create_engine("postgresql+psycopg:///churn_db")
 
 engine = create_engine(database_url)
 
