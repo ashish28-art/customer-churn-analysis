@@ -2,7 +2,7 @@
 import streamlit as st
 import pandas as pd
 import plotly.express as px
-from sqlalchemy import create_engine,URL
+from sqlalchemy import create_engine,URL,text
 
 # ==================================================
 # 1. PAGE CONFIGURATION
